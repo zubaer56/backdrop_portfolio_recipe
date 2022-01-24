@@ -1,10 +1,11 @@
 type = module
 name = Portfolio Recipe
-description = A simple config recipe for cards
+description = A simple config recipe for portfolio
 package = Recipes
 backdrop = 1.x
 
-dependencies[] = system (>=1.20.0)
-
 stylesheets[all][] = css/portfolio_recipe.css
-project = portfolio recipe
+
+dependencies[] = views
+dependencies[] = views_bootstrap
+dependencies[] = system (>=1.20.0)
